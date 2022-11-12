@@ -76,6 +76,11 @@
     text-decoration: underline;
 }
 
+a, a:visited {
+    color: rgb(27, 27, 27);
+    text-decoration: none;
+}
+
 .post-meta {
     display: inline-block;
     font-size: 0.9rem;
