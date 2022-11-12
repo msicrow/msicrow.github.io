@@ -68,11 +68,13 @@
       if (e.target === container) {
         e.preventDefault();
         container.style.display = "none";
+        document.body.style.overflow = "initial";
       }
     });
     document.getElementById("subscribe-button").addEventListener("click", e => {
       e.preventDefault();
       container.style.display = "flex";
+      document.body.style.overflow = "hidden";
     });
   });
 </script>
