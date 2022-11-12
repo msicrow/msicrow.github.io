@@ -1,0 +1,233 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+@font-face {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: normal;
+    src: url(./JosefinSans-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Vazirmatn';
+    font-style: normal;
+    font-weight: normal;
+    src: url(./Vazirmatn-Light.ttf);
+}
+
+@font-face {
+    font-family: 'Vazirmatn';
+    font-style: normal;
+    font-weight: bold;
+    src: url(./Vazirmatn-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'Vazirmatn';
+    font-style: normal;
+    font-weight: 100;
+    src: url(./Vazirmatn-Regular.ttf);
+}
+
+.page-content {
+    background: #F5F5F5;
+    font-family: 'Vazirmatn';
+}
+
+.page-content h1, .page-content h3, .page-content h4 {
+    font-weight: bold;
+}
+
+.site-header, .site-header > .wrapper {
+    border-top: none;
+    min-height: calc(88px + 2*0.6rem);
+}
+
+.site-title {
+    font-family: 'Josefin Sans';
+    font-weight: normal;
+    line-height: inherit;
+}
+
+.footer-col-wrapper {
+    text-align: center;
+    margin: 0;
+}
+
+.site-footer {
+    border-top: none;
+}
+
+.social-media-list > li {
+    display: inline-block;
+    margin: 0 1.5rem;
+    font-size: 1.3rem;
+}
+
+.page-content a.post-link, .page-content a.post-link:visited {
+    font-weight: 100;
+    text-decoration: none;
+}
+
+.page-content a, .page-content a:visited {
+    color: rgb(27, 27, 27);
+    text-decoration: underline;
+}
+
+.post-meta {
+    display: inline-block;
+    font-size: 0.9rem;
+    width: 15%;
+    min-width: 100px;
+}
+
+.post-list > li > h3 {
+    display: inline-block;
+}
+
+.post-link {
+    font-size: 0.9rem;
+}
+
+.page-content .post-link:hover, .page-content .post-link:focus {
+    text-decoration: none;
+    color: #828282;
+    transition: all 0.1s ease-in-out 0s;
+}
+
+.post-list > li {
+    margin: 0;
+}
+
+a:hover, a:focus {
+    text-decoration: none;
+}
+
+.page-content a:hover, .page-content a:focus {
+    text-decoration: underline;
+}
+
+.site-header img {
+    width: 5.5rem;
+    margin: 0.6rem 0;
+}
+
+.site-header > .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#subscribe-button {
+    display: inline-block;
+    padding: 0.4rem 1rem;
+    border-radius: 0.3rem;
+    border: 0.17rem solid rgb(174,134,31);
+    color: rgb(174,134,31);
+}
+
+#subscribe-button:hover {
+    background: rgb(174,134,31);
+    color: #FFF;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.wrapper::after {
+    display: none;
+}
+
+#subscribe-container {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.6);
+}
+
+#subscribe-form-wrapper {
+    width: 100%;
+    max-width: 400px;
+    background: #FFF;
+    display: inline-block;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+#subscribe-form-wrapper  input[type="email"] {
+    font-size: 0.8rem;
+    width: 100%;
+    margin: 0;
+    padding: 0.5rem;
+    border: 1px solid rgb(174,134,31);
+    border-top-left-radius: 0.2rem;
+    border-bottom-left-radius: 0.2rem;
+    border-right: none;
+    box-sizing: border-box;
+}
+
+#subscribe-form-wrapper  input[type="submit"] {
+    font-size: 0.8rem;
+    color: #FFF;
+    width: 30%;
+    margin: 0;
+    padding: 0.5rem;
+    border: 1px solid rgb(174,134,31);
+    border-top-right-radius: 0.2rem;
+    border-bottom-right-radius: 0.2rem;
+    background: rgb(174,134,31);
+    box-sizing: border-box;
+}
+
+#email-subscribe {
+    display: flex;
+    justify-content: center;
+}
+
+.mc-field-group {
+    width: 70%;
+}
+
+#subscribe-form-wrapper  input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+#subscribe-form-wrapper  input[type="email"]:focus-visible {
+    box-shadow: none !important;
+    outline: 0;
+}
+
+.page-content img + em, .page-content .twitter-tweet + p.caption {
+    color: #777;
+    text-align: center;
+    display: block;
+    padding-top: 0.6rem;
+    font-style: italic;
+}
+
+.page-content img {
+    border-radius: 0.3rem;
+    width: 100%;
+}
+
+.twitter-tweet {
+    margin: 10px auto;
+}
+
+.page-content hr {
+    margin: 3rem 0;
+    border: none;
+    height: 1px;
+    background: #ccc;
+}
+
+.page-content p, .page-content li {
+    word-spacing: 0.02rem;
+    letter-spacing: 0.02rem;
+    line-height: 1.83rem;
+}
