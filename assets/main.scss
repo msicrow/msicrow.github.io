@@ -36,8 +36,9 @@
     font-family: 'Vazirmatn';
 }
 
-.page-content h1, .page-content h3, .page-content h4 {
-    font-weight: bold;
+.page-content h1, .page-content h2, .page-content h3, .page-content h4 {
+    font-weight: normal;
+    font-family: 'Josefin Sans';
 }
 
 .site-header, .site-header > .wrapper {
@@ -53,13 +54,7 @@
 }
 
 /* applied font family to subtitle */
-.site-title + p {
-    font-family: 'Josefin Sans';
-    font-weight: normal;
-    line-height: inherit;
-}
-
-.page-link {
+.site-header {
     font-family: 'Josefin Sans';
     font-weight: normal;
     line-height: inherit;
@@ -67,6 +62,18 @@
 
 .trigger {
     margin-bottom: 0.2rem;
+    margin-left: 3.8rem;
+}
+
+.post-title {
+    font-family: 'Josefin Sans';
+    font-weight: normal;
+
+}
+
+.post-meta {
+    font-family: 'Josefin Sans';
+    font-weight: normal;
 }
 
 .footer-col-wrapper {
@@ -106,6 +113,10 @@ a, a:visited {
     min-width: 100px;
 }
 
+.post-list {
+    margin-left: 5rem;
+}
+
 .post-list > li > h3 {
     display: inline-block;
 }
@@ -122,6 +133,7 @@ a, a:visited {
 
 .post-list > li {
     margin: 0;
+    margin-bottom: -0.5rem;
 }
 
 a:hover, a:focus {
@@ -134,11 +146,13 @@ a:hover, a:focus {
 
 .site-header img {
     width: 5.5rem;
+    max-width: 100%;
+    height: auto;
 }
 
 .site-header > .wrapper {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -228,13 +242,14 @@ a:hover, a:focus {
     color: #777;
     text-align: center;
     display: block;
-    padding-top: 0.6rem;
     font-style: italic;
 }
 
 .page-content img {
     border-radius: 0.3rem;
-    width: 100%;
+    width: 90%;
+    margin: 1rem auto;
+    display: block;
 }
 
 .twitter-tweet {
@@ -242,14 +257,36 @@ a:hover, a:focus {
 }
 
 .page-content hr {
-    margin: 3rem 0;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     border: none;
     height: 1px;
     background: #ccc;
+}
+
+.page-content table {
+    font-weight: normal;
+    font-family: 'Josefin Sans';
 }
 
 .page-content p, .page-content li {
     word-spacing: 0.02rem;
     letter-spacing: 0.02rem;
     line-height: 1.83rem;
+}
+
+.page-content blockquote {
+    margin: 2rem auto;
+    display: block;
+    width: 85%;
+}
+
+.post {
+    display: block;
+    width: 87%;
+    margin: auto;
+}
+
+.wrapper div {
+    margin-right: 3.8rem;
 }
