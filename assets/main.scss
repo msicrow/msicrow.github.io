@@ -278,7 +278,9 @@ a:hover, a:focus {
     outline: 0;
 }
 
-.page-content img + em, .page-content .twitter-tweet + p.caption {
+.page-content img + em,
+.page-content .twitter-tweet + p.caption,
+.page-content iframe + p > em {
     color: rgb(68, 68, 68);
     text-align: center;
     display: block;
